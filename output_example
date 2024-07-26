@@ -1,0 +1,88 @@
+small test for creating and populating table with 100 employees
+Connection established to database:  ('sql5719806',)
+Creating tables
+Inserting data into table 1
+Inserting data into table 2
+Inserting data into table 3
+Elapsed time: 20.38892102241516 seconds for inserting data into Tables
++--------------------------+------------------------------+------+------+------+------+
+| department               | job                          |   Q1 |   Q2 |   Q3 |   Q4 |
+|--------------------------+------------------------------+------+------+------+------|
+| Accounting               | Statistician II              |    0 |    1 |    0 |    4 |
+| Business Development     | General Manager              |    2 |    3 |    1 |    4 |
+| Engineering              | Structural Analysis Engineer |    5 |    2 |    1 |    4 |
+| Human Resources          | Quality Engineer             |    0 |    1 |    2 |    4 |
+| Legal                    | Staff Accountant I           |    0 |    0 |    1 |    0 |
+| Marketing                | Recruiting Manager           |    0 |    3 |    2 |    2 |
+| Product Management       | Sales Representative         |    0 |    0 |    0 |    0 |
+| Research and Development | Quality Control Specialist   |    0 |    0 |    1 |    0 |
+| Sales                    | Health Coach III             |    0 |    0 |    0 |    2 |
+| Services                 | GIS Technical Architect      |    1 |    5 |    4 |    4 |
++--------------------------+------------------------------+------+------+------+------+
++----------+----------------------+---------+
+|   id_dep | dep_name             |   hired |
+|----------+----------------------+---------|
+|        7 | Services             |      14 |
+|        5 | Engineering          |      12 |
+|        8 | Support              |      12 |
+|        4 | Business Development |      10 |
+|       10 | Training             |       9 |
++----------+----------------------+---------+
+small test for OPTIMAL creating and populating table with 100 employees
+Connection established to database:  ('sql5719806',)
+Optimum data population
+Elapsed time: 1.935840368270874 seconds for inserting data into Tables
++--------------------------+----------------------+------+------+------+------+
+| department               | job                  |   Q1 |   Q2 |   Q3 |   Q4 |
+|--------------------------+----------------------+------+------+------+------|
+| Accounting               | Actuary              |    0 |    1 |    0 |    4 |
+| Business Development     | Marketing Manager    |    2 |    3 |    1 |    4 |
+| Engineering              | Office Assistant II  |    5 |    2 |    1 |    4 |
+| Human Resources          | Director of Sales    |    0 |    1 |    2 |    4 |
+| Legal                    | Web Developer I      |    0 |    0 |    1 |    0 |
+| Marketing                | Office Assistant III |    0 |    3 |    2 |    2 |
+| Product Management       | Sales Representative |    0 |    0 |    0 |    0 |
+| Research and Development | Assistant Manager    |    0 |    0 |    1 |    0 |
+| Sales                    | Web Developer I      |    0 |    0 |    0 |    2 |
+| Services                 | Biostatistician IV   |    1 |    5 |    4 |    4 |
++--------------------------+----------------------+------+------+------+------+
++----------+----------------------+---------+
+|   id_dep | dep_name             |   hired |
+|----------+----------------------+---------|
+|        7 | Services             |      14 |
+|        5 | Engineering          |      12 |
+|        8 | Support              |      11 |
+|        4 | Business Development |      10 |
+|       10 | Training             |       9 |
++----------+----------------------+---------+
+Final test for OPTIMAL creating and populating table with 100 employees
+Connection established to database:  ('sql5719806',)
+Optimum data population
+Elapsed time: 2.1648366451263428 seconds for inserting data into Tables
++--------------------------+------------------------------+------+------+------+------+
+| department               | job                          |   Q1 |   Q2 |   Q3 |   Q4 |
+|--------------------------+------------------------------+------+------+------+------|
+| Accounting               | Statistician II              |    3 |    8 |   14 |   12 |
+| Business Development     | General Manager              |   27 |   58 |   49 |   53 |
+| Engineering              | Structural Analysis Engineer |   27 |   46 |   61 |   73 |
+| Human Resources          | Quality Engineer             |   29 |   56 |   48 |   71 |
+| Legal                    | Staff Accountant I           |    6 |   10 |   18 |   22 |
+| Marketing                | Recruiting Manager           |   32 |   38 |   40 |   32 |
+| Product Management       | Sales Representative         |   10 |   19 |   11 |    9 |
+| Research and Development | Quality Control Specialist   |   26 |   32 |   46 |   44 |
+| Sales                    | Health Coach III             |   16 |   33 |   21 |   24 |
+| Services                 | GIS Technical Architect      |   29 |   66 |   57 |   50 |
++--------------------------+------------------------------+------+------+------+------+
++----------+----------------------+---------+
+|   id_dep | dep_name             |   hired |
+|----------+----------------------+---------|
+|        8 | Support              |     216 |
+|        5 | Engineering          |     205 |
+|        6 | Human Resources      |     201 |
+|        7 | Services             |     200 |
+|        4 | Business Development |     185 |
++----------+----------------------+---------+
+Appending 100 new employees
+Elapsed time: 0.289792537689209 seconds for inserting data into Tables
+Appending 1000 new employees
+Elapsed time: 0.35759687423706055 seconds for inserting data into Tables
